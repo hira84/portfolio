@@ -1,15 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import PlaceholderImage from '../assets/placeholder_image.png';
+import picture from '../assets/pic.jpg';
 
 // Replace these variables with your information
-const firstName = 'Replace with your first name';
-const jobTitle = 'Replace with your title';
-const company = 'Replace with your company name';
-const mainDuty = 'Replace with your main duty';
-const jobLocation = 'Replace with your job location';
-const briefJobDescription = 'Replace with a brief description of your job';
-const careerObjective = 'Replace with your career objective';
-const personalLife = 'Replace with a brief description of your personal life';
+const firstName = 'Hira Khan';
+const jobTitle = 'Cardiac Technologist';
+const company = 'Memorial Sloan Kettering Cancer Center';
+const mainDuty = 'DIagnostic Cardilogy,Customer Services,Quality Assurance, Data Analyzing, Project Management';
+const jobLocation = 'New York';
+const briefJobDescription = 'Customer Services,Training and development,Regulatory compliance,Data analysis';
+const careerObjective = 'Eager to leverage expertise in data analysis, project management, and technology integration gained from healthcare settings. Seeking to transition into an IT role where I can apply my technical acumen, problem-solving skills, and passion for innovation to contribute effectively to IT projects and initiatives. ';
+const personalLife = 'Balancing the roles of a dedicated professional and nurturing mother of girl, and boy, I thrive in seamlessly integrating the demands of both worlds.i like to travel,i am food enthusiastic person,,';
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
       <section className='about-content-container'>
         <section className='image-container'>
           {/* Replace this placeholder image and alt tag with a professional headshot */}
-          <img className='headshot' src={PlaceholderImage} alt="placeholder image" />
+          <img className='headshot' src={picture} alt="image" />
         </section>
         <section className='description-container'>
           <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>
@@ -32,3 +32,6 @@ const About = () => {
   )
 }
  export default About;
+ 
+
+ 

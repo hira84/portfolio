@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
 
-const fullName = 'Replace with your name';
-const personalQuote = 'Replace with your personal quote';
-const professionalSummary = 'Replace with your professional summary';
+
+const fullName = 'Hira Khan';
+const personalQuote = 'A tech career and balancing a family is like coding a complex algorithm: challanging but incredibly rewarding. Every challange overcome is a step closer to success';
+const professionalSummary = 'Accomplished professional with over nine years of demonstrated expertise in customer service and operations support. Proficient in a diverse array of technologies, process optimization, and data analytics. Possesses extensive knowledge of the full web development lifecycle, including command line and shell scripting.';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         Contact Me
         </NavLink>
         {/* Replace the src with your own placeholder and change the alt to match the description */}
-        <img className="hero-background" src={PlaceholderHero} alt="placeholder hero image" />
+        <img className="hero-background" src={PlaceholderHero} alt="image" />
       </section>
       <section className="overview home-subsection">
         <h3 className="subsection-intro-header">Introduction</h3>
